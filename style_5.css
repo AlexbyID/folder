@@ -53,7 +53,6 @@ body{
 	top: 0;
 	width: 100%;
 	z-index: 900;
-/*	background-color: #fff;*/
 	position: fixed;
 }
 
@@ -398,6 +397,7 @@ a{
 
 .main-sticky-frame-padding{
 	padding-top: 20px;
+	padding-bottom: 389px;
 }
 
 .padding-btn-frame{
@@ -418,10 +418,10 @@ a{
 
 .sticky-nav{
 	display: flex;
-    justify-content: center;
-    align-items: center;
-    width: inherit;
-    height: inherit;
+  justify-content: center;
+  align-items: flex-start;
+  width: inherit;
+  height: inherit;
 }
 
 .right-profile-edit-w{
@@ -782,8 +782,8 @@ a{
 }
 
 .under-search-bar{
-	position: fixed;
 	margin-top: 131px;
+	overflow: scroll;
 	width: 100%;
 }
 
@@ -849,6 +849,7 @@ a{
 .banners-main-block{
 	width: 100%;
 	padding-top: 42px;
+	padding-bottom: 15px;
 	display: inline-flex;
 }
 
@@ -881,9 +882,9 @@ a{
 
 .up-design-content{
 	z-index: 100;
-	height: inherit;
-    width: inherit;
-    position: absolute;
+	height: 100%;
+  width: inherit;
+  position: absolute;
 }
 
 .left-desing-conten{
@@ -908,8 +909,8 @@ a{
 
 .banner-main-edit-fixes{
 	width: 100%;
-    position: relative;
-    height: 100%;
+  position: relative;
+  height: auto;
 }
 
 .content-left-main-position{
