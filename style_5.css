@@ -1252,7 +1252,7 @@ a{
 
 	.main-notification{
 		width: max-content;
-		margin-bottom: 100%;
+		height: max-content;
 		margin-right: 0;
 	}
 
@@ -1322,8 +1322,8 @@ a{
 
 	.main-notification{
 		width: max-content;
-		margin-bottom: 100%;
-		margin-right: 0;
+		height: max-content;
+		margin-right: 0
 	}
 
 	.header .search-bar{
@@ -1403,8 +1403,8 @@ a{
 
 	.main-notification{
 		width: max-content;
-		margin-bottom: 100%;
-		margin-right: 0;
+		height: max-content;
+		margin-right: 0
 	}
 
 	.header .search-bar{
@@ -1525,8 +1525,8 @@ a{
 
 	.main-notification{
 		width: max-content;
-		margin-bottom: 100%;
-		margin-right: 0;
+		height: max-content;
+		margin-right: 0
 	}
 
 	.header .search-bar{
