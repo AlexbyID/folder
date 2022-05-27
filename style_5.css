@@ -317,6 +317,23 @@ body{
 	display: none;
 }
 
+.vidjet-left-screen{
+	display: block;
+	width: 200px;
+  flex-shrink: 0;
+}
+
+.vidjet-white-back{
+	background-color: #fff;
+  height: 100%;
+  width: inherit;
+  position: fixed;
+}
+
+.ic-vidjet{
+	filter: invert(54%) sepia(7%) saturate(751%)
+	hue-rotate(169deg) brightness(92%) contrast(90%);
+}
 
 /*
 <div class="bar-main-right-sticky-position">
@@ -642,6 +659,16 @@ a{
     position: absolute;
     left: 46px;
     margin-top: 14px;
+}
+
+.ic-vidjet{
+	content: url(./imgs/sticky-left/svg/ic-vidjet.svg);
+	width: 50px;
+	height: 50px;
+}
+
+.ic-vidjet::before{
+	content: "?";
 }
 
 .right-icon-control{
@@ -1153,7 +1180,7 @@ a{
 	}
 
 	.under-search-bar{
-		margin-left: 15px;
+		margin-left: 225px;   /* 15px+width */
 	}
 
 	.under-search-bar-fix{
@@ -1178,6 +1205,14 @@ a{
 	}
 	.main-photography-banner{
 		width: 80%;
+	}
+
+	.vidjet-white-back{
+		display: none;
+	}
+
+	.fix-pos-ic-vidjet{
+		background-color: #F5F5FB;
 	}
 
 	.main-animation-banner{
@@ -1225,6 +1260,15 @@ a{
 		padding: 15px 0 0 0;
 	}
 
+	.vidjet-white-back{
+		display: none;
+	}
+
+	.fix-pos-ic-vidjet{
+		width: max-content;
+		position: absolute;
+	}
+
 	.header-left{
 		display: none;
 	}
@@ -1244,6 +1288,10 @@ a{
 
 	.right-profile-edit-w{
 		display: none;
+	}
+
+	.vidjet-left-screen{
+		width: auto;
 	}
 
 	.header-main-search{
@@ -1297,6 +1345,10 @@ a{
 
 	.header-left{
 		display: none;
+	}
+
+	.vidjet-left-screen{
+		width: auto;
 	}
 
 	.header-main-search{
@@ -1374,6 +1426,10 @@ a{
 	.main-animation-banner{
 		width: 80%;
 		padding: 15px 0 0 0;
+	}
+
+	.vidjet-left-screen{
+		width: auto;
 	}
 
 	.header-left{
@@ -1499,6 +1555,10 @@ a{
 
 	.header-left{
 		display: none;
+	}
+
+	.vidjet-left-screen{
+		width: auto;
 	}
 
 	.header-main-search{
